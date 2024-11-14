@@ -1,0 +1,83 @@
+@keyframes slidein {
+    from {
+        transform: translate(-100%);
+        opacity: 1;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+header {
+    animation: slidein 1s ease-out;
+    background: url('https://wallpapers.com/images/featured/mobile-legends-v0u46grjbqc6h9ga.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Impact;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    text-shadow: 5px 5px 7px black
+}
+
+body {
+	background: url('https://i.pinimg.com/736x/26/8f/95/268f951a25613da5efc13a4282965969.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.table {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+th {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+td {
+	padding: 20px;
+	text-emphasis: center;
+	font-size: 1.2rem;
+}
+
+table img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+td p {
+    font-size: 1.1rem;
+}
+
+.strengths-cell ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.strengths-cell li {
+    margin-bottom: 10px;
+}
+
+th {
+    font-size: 1.3rem;
+}
+
+td {
+    font-size: 1.2rem;
+}
+
